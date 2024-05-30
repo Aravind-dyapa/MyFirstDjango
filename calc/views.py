@@ -11,4 +11,7 @@ def add(request):
 
 def dashboard(request):
     return render(request,'dashboard.html')
+
+def link(request):
+    return render(request,'link.html')
     
